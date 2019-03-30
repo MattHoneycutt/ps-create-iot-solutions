@@ -79,7 +79,7 @@ namespace DeviceProvisioningSample
                 Console.WriteLine("Connected!");
 
                 Console.Write("Sending D2C message... ");
-                await client.SendEventAsync(new Message(Encoding.UTF8.GetBytes("Hello from a provisiond device!")));
+                await client.SendEventAsync(new Message(Encoding.UTF8.GetBytes("Hello from a provisioned device!")));
                 Console.WriteLine("Sent!");
                 
                 Console.Write("Closing connection... ");
