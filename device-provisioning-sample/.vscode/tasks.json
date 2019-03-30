@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/create-cert.csproj"
+                "${workspaceFolder}/device-provisioning-sample.csproj"
             ],
             "problemMatcher": "$msCompile"
         },
@@ -17,7 +17,7 @@
             "type": "process",
             "args": [
                 "run",
-                "${workspaceFolder}/create-cert.csproj"
+                "${workspaceFolder}/device-provisioning-sample.csproj"
             ],
             "problemMatcher": "$msCompile"
         }
